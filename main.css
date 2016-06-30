@@ -1,0 +1,28 @@
+/* 
+    Created on : Jun 28, 2016, 7:46:20 PM
+    Author     : Sam McHaney
+*/
+
+/*
+TODO:
+
+1. Add responsive breaks
+
+*/
+
+#content-wrapper{
+    display:block;
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+}
+
+#content-wrapper div ul {
+    list-style: none;
+}
+
+#content-wrapper div {
+    display: inline-block;
+    vertical-align:top;
+    
+}
