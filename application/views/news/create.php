@@ -16,5 +16,6 @@ $this->load->view($this->config->item('theme').'header');
     <input type="submit" name="submit" value="Create news item" />
 
 </form>
+<a href="https://github.com/luomopuma/itc260">Source Code</a>
 
 <?php $this->load->view($this->config->item('theme').'footer'); ?>
