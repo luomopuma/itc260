@@ -34,6 +34,6 @@ class News_model extends CI_Model {
                 );
 
                 // Insert into database.
-                return $this->db->insert('news', $data);
+                return $this->db->insert('su16_news', $data);
         }
 }
