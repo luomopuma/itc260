@@ -20,13 +20,13 @@ $this->load->view($this->config->item('theme').'header');
 
 </div><!-- form -->
 <div id="examples">
-<a href = "<?php echo base_url(); ?>index.php/pics/seattle">Seattle</a>
-<a href = "<?php echo base_url(); ?>index.php/pics/polar_bears">Polar Bears</a>
-<a href = "<?php echo base_url(); ?>index.php/pics/lamps">Lamps</a>
-<a href = "<?php echo base_url(); ?>index.php/pics/wine">Wine</a>
-<a href = "<?php echo base_url(); ?>index.php/pics/video_games">Video Games</a>
-<a href = "<?php echo base_url(); ?>index.php/pics/latte_art">Latte Art</a>
-<a href = "<?php echo base_url(); ?>index.php/pics/brecht">Brecht</a>
+<a href = "<?php echo base_url(); ?>/pics/seattle">Seattle</a>
+<a href = "<?php echo base_url(); ?>/pics/polar_bears">Polar Bears</a>
+<a href = "<?php echo base_url(); ?>/pics/lamps">Lamps</a>
+<a href = "<?php echo base_url(); ?>/pics/wine">Wine</a>
+<a href = "<?php echo base_url(); ?>/pics/video_games">Video Games</a>
+<a href = "<?php echo base_url(); ?>/pics/latte_art">Latte Art</a>
+<a href = "<?php echo base_url(); ?>/pics/brecht">Brecht</a>
 </div><!-- examples -->
 
 
