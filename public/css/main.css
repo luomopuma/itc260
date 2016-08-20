@@ -1,0 +1,37 @@
+div#photo{
+    display:inline-block;
+    margin-left:1%;
+}
+.container h2{
+    text-align: left;
+}
+.container{
+    text-align:center;
+}
+#examples h3{
+    text-align:left;
+}
+#examples{
+    display: flex;
+    justify-content:space-between;
+    
+}
+#examples a{
+    padding: 3px;
+    width: 14%;
+}
+#examples a:hover{
+    
+    opacity: 50%;
+    background: #81161e;
+    color:white;
+}
+form{
+    text-align:left;
+    margin-bottom: 2%;
+}
+form label {
+    margin-right: 1%;
+    margin-top: 2%;
+    font-size: 1.2em;
+}

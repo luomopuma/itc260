@@ -49,9 +49,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+
+/* 
+| NOTE: moving controller routes below the 'default_controller' specification
+| can lead to 404 errors.
+|
+ */
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
 $route['news'] = 'news';
+$route['blog'] = 'blog';
+$route['pics'] = 'pics';
+$route['pics/custom_submit'] = 'pics/custom_submit';
+$route['pics/(:any)'] = 'pics/view/$1';
 $route['(:any)'] = 'pages/view/$1';
 $route['default_controller'] = 'news/index';
 
